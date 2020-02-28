@@ -270,3 +270,7 @@ uninstall-freedoom:
 install: install-freedm install-freedoom
 
 uninstall: uninstall-freedm uninstall-freedoom
+
+snap: io.github.freedoom.Phase2.png
+	cp ./dist/io.github.freedoom.Phase2.png snap/gui/io.github.freedoom.png
+	snapcraft

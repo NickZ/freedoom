@@ -4,10 +4,10 @@
 *.6
 *.bak
 *.html
-*.ini
 *.orig
 *.pdf
 *.pyc
+*.snap
 *.swp
 *.zip
 *~
@@ -63,6 +63,8 @@ doom.gpl
 
 /lumps/colormap/*.lmp
 
+/lumps/dmxgus/*.ini
+
 /lumps/genmidi/*.lmp
 
 /lumps/playpal/playpal.lmp
@@ -74,3 +76,5 @@ doom.gpl
 /lumps/textures/phase2/
 
 /wads/
+
+/snap/gui/io.github.freedoom.png
