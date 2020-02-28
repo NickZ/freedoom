@@ -1,4 +1,4 @@
-name: freedoom
+name: freedoom-test
 base: core18
 version: latest
 version-script: git describe --abbrev=8 --dirty 2>/dev/null
