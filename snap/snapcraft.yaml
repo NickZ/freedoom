@@ -16,7 +16,7 @@ confinement: strict
 apps:
   freedoom:
     command: desktop-launch $SNAP/bin/freedoom
-    plugs: [desktop, desktop-legacy, unity7, network, opengl, pulseaudio, audio-playback, joystick, x11, wayland, home]
+    plugs: [alsa, desktop, desktop-legacy, unity7, network, opengl, pulseaudio, audio-playback, joystick, x11, wayland, home]
     environment:
       LD_LIBRARY_PATH: $SNAP/usr/lib/x86_64-linux-gnu/pulseaudio:$LD_LIBRARY_PATH
 
